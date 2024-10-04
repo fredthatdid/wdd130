@@ -1,0 +1,57 @@
+:root {
+    background: #a7ffe7;
+    max-width: 1000px;
+    font-family: "Fahkwang";
+    
+  }
+
+  header {
+    margin: auto;
+  }
+  header img{
+    border-radius: 20px;
+  }
+
+  p {
+    
+    color:#073B4C;
+
+  }
+
+  .hero {
+    position: relative;
+    background-color: #ecbbe0;
+    width: 1000px;
+    height: 400px;
+  }
+  .heroimg{
+    position: absolute;
+    object-fit: cover;
+    width: 1000px;
+    height: 400px;
+  }
+  .hero h1{
+    position: absolute;
+    background-color: rgba(245, 245, 220, 0.527);
+    width: 1000px;
+    text-align: center;
+  }
+  .hero article{
+    position: absolute;
+    border: 2px solid;
+    top: 25%;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0.527);   
+  }
+  .artimg{
+    float: right;
+    width: 170px;
+    height: 150px;
+    margin-top: 25px;
+    margin-right: 10px; 
+  }
+  .sociallinks img{
+    border-radius: 10px;
+  }
+
+

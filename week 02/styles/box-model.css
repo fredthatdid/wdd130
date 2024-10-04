@@ -1,0 +1,49 @@
+
+.callout {
+    
+    
+      max-width: 400px;
+      border: 1px solid rgb(0, 0, 0);
+      margin: 10px;
+      padding: 15px;
+      background-color: #247;
+      color:aliceblue
+      
+
+      /* maximum width, margin, border, padding, background color, and text color */
+    
+	
+}
+
+.callout img {
+    
+      float: right; /*position of image*/
+      margin: 0 0 10px 15px;
+      border: 1px solid #000000;
+      padding: 3px;
+      background-color: #bbb;
+      width: 100px;
+      height: auto;
+      
+
+
+
+      /* position (float), margin, border, padding, background color, width, height */
+      
+	
+}
+
+blockquote {
+	margin: 0;
+}
+
+cite {
+	display: block;
+	border-top: 1px dotted #fff;
+	padding-top: 3px;
+	text-align: right;
+	font-size: smaller;
+
+  /* display, top border, top padding, text alignment, size of font */
+}
+  
