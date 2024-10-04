@@ -1,11 +1,15 @@
+:root{
+    
+}
+
 nav {
     background-color: steelblue;
-    padding: 10px; /* area between the content and border*/
+    padding: 10px;
 }
 
 nav a {
     color: white;
-    display: block; /* The display will change from the default of inline to block*/
+    display: block;
     padding: 20px;
 }
 
