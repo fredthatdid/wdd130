@@ -6,10 +6,25 @@
   }
 
   header {
-    margin: auto;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1000px;
   }
   header img{
     border-radius: 20px;
+    margin-left: 80px; 
+  }
+  header nav {
+    flex: 1 1 100%;
+  }
+  .linkstop {
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    border: 2px solid;
+    
   }
 
   p {
@@ -39,6 +54,7 @@
   .hero article{
     position: absolute;
     border: 2px solid;
+    margin: 2rem;
     top: 25%;
     text-align: center;
     background-color: rgba(245, 245, 220, 0.527);   
@@ -47,11 +63,67 @@
     float: right;
     width: 170px;
     height: 150px;
-    margin-top: 25px;
-    margin-right: 10px; 
+    padding: 20px;
+    margin-top: 5px;
+    margin-right: 5px; 
+  }
+ 
+  .section1 {
+    display: grid;
+    border-bottom: 2px solid;
+    top: 25%;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .section1 img {
+    width: 300px;
+    border: 2px solid;
+    border-color: #42075e;
+    border-radius: 5px;
+      
+  }
+
+  .section2 {
+    border-top: 2px solid;
+    top: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 100px 200px;
+    grid-template-areas: 'header header header header header';
+     
+    
+  }
+  .sec2img {
+    display: grid;
+    width: 200px;
+    border: 2px solid;
+    border-color: #233035;
+    border-radius: 5px;
+
+    
+  }
+  .section2 h2 {
+    grid-area: header;
+    text-align: center;
+
+  }
+
+  .footertxt {
+    text-align: center;
+  }
+
+  .sociallinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
   }
   .sociallinks img{
     border-radius: 10px;
+    margin: 10px;
+
+  }
   }
 
 
