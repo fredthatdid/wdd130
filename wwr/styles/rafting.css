@@ -124,6 +124,100 @@
     margin: 10px;
 
   }
+
+
+
+  .reachout {
+    text-align: center;
+    background-color: rgba(158, 158, 158, 0.377);
+    padding: 20px;
+  }
+.companyinfo {
+  position: relative;
+  padding: 50px;
+}
+.cpnyinfo1 {
+  position: absolute;
+  width: 350px;
+  top: 25%;
+
+}
+.cpnyinfo2 {
+  position: relative;
+  width: 600px;
+  left: 320px;
+
+}
+.happyemployees h1 {
+  text-align: center;
+  background-color: rgba(158, 158, 158, 0.377);
+  padding: 20px;
+}
+.images {
+  width: 400px;
+}
+.classjohn, .classbeefboss{
+  position: relative;
+  padding-bottom: 300px;
+}
+.johnimg, .beefbossimg{
+  position: absolute;
+  width: 350px;
+  top: 25%;
+  left: 58%;
+
+}
+.john, .beefboss{
+  position: absolute;
+  left: 150px;
+  top: 50%;
+  font-size: 50px;
+}
+.classgary{
+  position: relative;
+  padding-bottom: 300px;
+  
+}
+.garyimg{
+  position: absolute;
+  width: 350px;
+  top: 25%;
+  left: 0%;
+
+}
+.gary{
+  position: absolute;
+  left: 68%;
+  top: 50%;
+  font-size: 50px;
+}
+.userform {
+  margin-top: 100px;
+  border-top: 2px solid rgba(158, 158, 158, 0.377);
+  background-color: rgba(158, 158, 158, 0.377);
+  padding: 20px;
+}
+.userform h1, h3 {
+  text-align: center;
+}
+.field {
+  text-align: center;
+}
+button {
+  margin: 1rem;
+  background-color: rgb(0, 87, 128);
+  color: #fff;
+  border: none;
+  border-radius: .2rem;
+  padding: .5rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1rem;
+}
+textarea {
+  width: 500px;
+}
+
   
 
 
