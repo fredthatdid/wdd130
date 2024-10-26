@@ -27,10 +27,9 @@
     
   }
 
-  p {
-    
-    color:#073B4C;
-
+  h2 {
+    color:#000000;
+    font-size: 20px;
   }
 
   .hero {
@@ -112,6 +111,7 @@
 
   .footertxt {
     text-align: center;
+
   }
 
   .sociallinks {
@@ -122,6 +122,7 @@
   .sociallinks img{
     border-radius: 10px;
     margin: 10px;
+    width: 40px;
 
   }
 
@@ -218,6 +219,214 @@ textarea {
   width: 500px;
 }
 
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tripheader {
+  padding-bottom: 50px;
+  background-color: #92dac6;
+}
+.tripheader h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+.tripbutton {
+  display: block;
+  position: absolute;
+  left: 425px;
+  border: 2px solid #3d6359;
+  padding: 10px;
+  background-color: #85cab8;
+}
+.tripdescriptions {
+  position: relative;
+}
+.triptwo {
+  padding-bottom: 25px;
+}
+.tripone {
+  padding-top: 35px;
+
+}
+
+.tripone p {
+  position: absolute;
+  border: 2px solid gray;
+  width: 30%;
+  left: 56%;
+  padding: 20px;
+  font-size: 25px;
+  background-color: #92dac6;
+}
+.tripone img {
+  width: 50%;
+  border-radius: 20px;
+}
+.triptwo p {
+  border: 2px solid gray;
+  width: 30%;
+  padding: 20px;
+  font-size: 25px;
+  background-color: #92dac6;
+}
+.triptwo img {
+  position: absolute;
+  left: 45%;
+  width: 47%;
+  border-radius: 20px;
+}
+
+.tripthree p {
+  position: absolute;
+  border: 2px solid gray;
+  width: 30%;
+  left: 56%;
+  padding: 20px;
+  font-size: 25px;
+  background-color: #92dac6;
+}
+.tripthree img {
+  width: 50%;
+  border-radius: 20px;
+}
+.tableheader {
+  background-color: #92dac6;
+  text-align: center;
+}
+.tableheader h2 {
+font-weight: 200;
+}
+
+
+
+.table {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  left: 145px;
+}
+.tablerow1 th {
+  text-align: left;
+  padding-left: 10px;
+  background-color: #92dac6;
+  border-color: #85cab8;
+}
+.tablerow td {
+  padding-left: 10px;
+  border: 2px solid;
+  border-color: #85cab8;
+}
+footer {
+  background-color: #92dac6;
+}
+
+
+.homepagetop{
+position: relative;
+
+}
+.homepagetopimg {
+  width: 100%;
+  border-radius: 15px;
+}
+.homepagetoptxt {
+  position: absolute;
+  top: 100px;
+  background-color: #92dac6c7;
+  width: 98%;
+  text-align: center;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+}
+
+.stacked {
+  display: grid;
+}
+
+.stacked > * {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+
+.product-grid {
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.card__title {
+  line-height: 1.1;
+  font-size: 1.25rem;
+}
+.card__img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.card__content {
+  background: white;
+  align-self: end;
+  margin: .5rem .5rem 2rem;
+  padding: .5rem;
+  text-align: center;
+  box-shadow: 0 .25rem 1rem rgb(0, 0, 0);
+}
+img, picture {
+  max-width: 100%;
+}
+
+
+.homenewsletter fieldset {
+  position: relative;
+  background-color: #92dac6c7;
+  padding: 20px;
+  border: 2px solid #92dac6c7;
+}
+.homenewsletter h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+.namefield {
+  position: absolute;
+  top: 70%;
+  left: 13%;
+
+}
+.emailfield {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+}
+.submitfield {
+  position: absolute;
+  top: 70%;
+  left: 75%;
+}
+
+.endheader {
+  text-align: center;
+  padding-bottom: 35px;
+}
+.endheader h1 {
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+.endheader a {
+  border: 3px solid #4a6d63c7;
+  padding: 10px;
+  background-color: #72aa9ac7;
+}
   
 
 
